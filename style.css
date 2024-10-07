@@ -195,6 +195,7 @@ p {
 #about,
 #offers,
 #location,
+#payment,
 #contact {
   padding: 2rem 0;
   background-color: rgb(215, 223, 223);
@@ -297,7 +298,7 @@ p {
 }
 
 #offers img {
-  max-width: 450px;
+  max-width: 375px;
 }
 
 #offers .col-3,
@@ -414,6 +415,7 @@ p {
   .navbarlink ul li a {
     margin: 0;
   }
+
   .primary-containt {
     grid-template-columns: 1fr; /* تصغير المحتوى ليكون عمود واحد على الشاشات الصغيرة */
   }
@@ -432,57 +434,4 @@ p {
   /* #about {
     margin-top: 5rem;
   } */
-}
-
-
-/* Additional Media Queries for better responsiveness */
-
-@media (max-width: 600px) {
-    .primary-containt {
-        grid-template-columns: 1fr; /* Single column layout for mobile screens */
-        padding: 4rem 1rem; /* Adjust padding for smaller screens */
-    }
-
-    .primary-containt img {
-        max-width: 100%; /* Adjust image width to fit the screen */
-        height: auto;
-    }
-
-    .primary-containt .containt-text h1 {
-        font-size: 50px; /* Reduce font size for mobile */
-    }
-
-    .primary-containt .containt-text .title {
-        font-size: 22px; /* Adjust title size */
-    }
-
-    #about .about-containt, 
-    #offers .offers-containt, 
-    #location .location-containt, 
-    #contact .contact-containt {
-        grid-template-columns: 1fr; /* Single column layout for sections */
-    }
-
-    /* Navbar adjustments */
-    .navbarlink ul li a {
-        font-size: 18px; /* Adjust font size for navbar links */
-    }
-
-    /* Adjust buttons and text for mobile */
-    .primary-btn {
-        font-size: 14px;
-        padding: 6px 12px;
-    }
-}
-
-@media (max-width: 400px) {
-    .primary-containt .containt-text h1 {
-        font-size: 40px; /* Further reduce font size for very small screens */
-    }
-    .primary-containt .containt-text .title {
-        font-size: 18px; /* Further adjust title size */
-    }
-    .navbarlink ul li a {
-        font-size: 16px; /* Adjust navbar font size for smallest screens */
-    }
 }
