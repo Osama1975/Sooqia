@@ -128,20 +128,26 @@ p {
   grid-template-columns: 1.5fr 1fr;
   max-width: 1100px;
   margin: auto;
-  padding: 8rem 2rem 0;
+  padding: 3rem 0;
   height: 100%;
   align-items: center;
 }
 
 .primary-containt .containt-text {
-  margin: 0 7rem 2rem 0;
+  /* margin: 0 7rem 2rem 0; */
+  text-align: center;
 }
 
-.primary-containt img {
+/* .primary-containt img {
   max-width: 400px;
-  max-height: 480px;
-}
+  max-height: 465px;
+} */
 
+.primary-containt #bottle {
+  max-width: 400px;
+  max-height: 420px;
+  margin-top: 3rem;
+}
 .primary-containt .containt-text p span {
   font-weight: 800;
   font-size: 28px;
@@ -177,7 +183,7 @@ p {
 
 .primary-containt .logostyle {
   display: flex;
-  align-items: center;
+  justify-content: center;
 }
 .primary-containt .logostyle img {
   height: 100px;
