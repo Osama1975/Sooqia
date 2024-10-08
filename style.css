@@ -196,7 +196,7 @@ p {
 #area-about-section,
 #area-offers-section,
 #area-contact-section {
-  background-color: rgb(215, 223, 223);
+  background-color: lavender;
 }
 #about,
 #offers,
@@ -204,7 +204,7 @@ p {
 #payment,
 #contact {
   padding: 2rem 0;
-  background-color: rgb(215, 223, 223);
+  background-color: lavender;
   max-width: 1100px;
   margin: auto;
 }
@@ -283,10 +283,12 @@ p {
   grid-template-columns: repeat(2, 1fr);
   text-align: center;
   padding-top: 1rem;
+  gap: 2rem;
 }
 
 #payment .payment-containt {
   padding-top: 2rem;
+  text-align: justify;
 }
 
 /* PAYMENT END */
@@ -332,6 +334,8 @@ p {
 }
 /* LOCATION END */
 
+/* Contact Start */
+
 #contact .col-1,
 #contact .col-3 {
   margin-top: 2rem;
@@ -364,6 +368,8 @@ p {
 /* #contact button {
   width: 465px;
 } */
+
+/* Contact End */
 
 @media (max-width: 900px) {
   .navbar {
@@ -435,6 +441,10 @@ p {
     grid-template-columns: 1fr; /* تصغير المحتوى ليكون عمود واحد على الشاشات الصغيرة */
   }
   #contact .contact-containt {
+    grid-template-columns: 1fr; /* تصغير المحتوى ليكون عمود واحد على الشاشات الصغيرة */
+  }
+
+  #payment .row {
     grid-template-columns: 1fr; /* تصغير المحتوى ليكون عمود واحد على الشاشات الصغيرة */
   }
   /* #about {
