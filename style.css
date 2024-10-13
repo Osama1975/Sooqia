@@ -374,6 +374,11 @@ p {
 /* Contact End */
 
 @media (max-width: 900px) {
+  .tabs {
+    width: 90vw;
+    display: revert;
+  }
+
   .navbar {
     padding: 0 3rem;
     position: relative;
