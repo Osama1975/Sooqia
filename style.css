@@ -21,7 +21,7 @@ body {
 
 a {
   text-decoration: none;
-  pointer-events: all; /* تأكد من أن العنصر القابل للنقر */
+  pointer-events: auto; /* تأكد من أن العنصر القابل للنقر */
 }
 
 ul {
