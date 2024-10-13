@@ -19,10 +19,9 @@ body {
   color: white;
 }
 
-/* a {
+a {
   text-decoration: none;
-  
-} */
+}
 
 ul {
   list-style: none;
@@ -374,10 +373,11 @@ p {
 /* Contact End */
 
 @media (max-width: 900px) {
-  .tabs {
-    width: 90vw;
-    background-color: cyan;
+  .primary-containt a {
+    z-index: 10;
+    position: relative;
   }
+
   .navbar {
     padding: 0 3rem;
     position: relative;
