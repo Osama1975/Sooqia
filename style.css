@@ -21,7 +21,9 @@ body {
 
 a {
   text-decoration: none;
+  pointer-events: all; /* تأكد من أن العنصر القابل للنقر */
 }
+
 ul {
   list-style: none;
 }
