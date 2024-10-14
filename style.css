@@ -366,6 +366,19 @@ p {
   outline: none;
   border: 1px solid #bbb;
 }
+
+/* footer start */
+#footer {
+  background-color: #046db9;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+#footer p {
+  color: white;
+}
+/* footer end */
+
 /* #contact button {
   width: 465px;
 } */
